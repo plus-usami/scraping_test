@@ -58,3 +58,10 @@ console.error: (new Error("Connection closed before committing the transaction."
 1568796515151	Marionette	INFO	Listening on port 64829
 1568796515224	Marionette	WARN	TLS certificate errors will be ignored for this session
 GVA info: Successfully connected to the Intel plugin, offline Gen75 
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6509, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
