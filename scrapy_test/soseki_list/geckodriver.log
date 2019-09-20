@@ -1,0 +1,48 @@
+1568956819312	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/97/g0ksr_bs0tz3bjfl873jz1f00000gn/T/rust_mozprofilefhJKv1"
+1568956821638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568956821638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568956821638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568956821639	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568956824372	Marionette	INFO	Listening on port 54039
+1568956824467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568957586929	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/97/g0ksr_bs0tz3bjfl873jz1f00000gn/T/rust_mozprofileTVFSff"
+1568957589262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568957589262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568957589262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568957589262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568957591668	Marionette	INFO	Stopped listening on port 54039
+1568957592639	Marionette	INFO	Listening on port 54318
+1568957592706	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568957621358	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/97/g0ksr_bs0tz3bjfl873jz1f00000gn/T/rust_mozprofilegHWcVl"
+1568957622149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568957622149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568957622149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568957622149	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568957626902	Marionette	INFO	Listening on port 54415
+1568957626931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568958058696	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/97/g0ksr_bs0tz3bjfl873jz1f00000gn/T/rust_mozprofileyxqAeO"
+1568958061807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568958061808	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568958061808	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568958061808	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568958065006	Marionette	INFO	Listening on port 54667
+1568958065038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/driver.js, line 1350: TypeError: WeakMap key must be an object, got browser.permanentKey
+1568958083277	Marionette	ERROR	[26] No reply from Marionette:Register
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1294: uncaught exception: 2147500033
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1294: uncaught exception: 2147500033
+JavaScript error: resource://devtools/server/actors/emulation.js, line 362: TypeError: this.targetActor.docShell is null
+1568958084115	Marionette	ERROR	[6442450948] No reply from Marionette:Register
+1568958084133	Marionette	ERROR	[6442450950] No reply from Marionette:Register
+1568958859659	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/97/g0ksr_bs0tz3bjfl873jz1f00000gn/T/rust_mozprofileaO3HJe"
+1568958862414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568958862414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568958862414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568958862414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568958865308	Marionette	INFO	Listening on port 55112
+1568958865348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568958971051	Marionette	ERROR	[8589934593] No reply from Marionette:Register
+1568958973768	Marionette	INFO	Stopped listening on port 54667
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
+1568958976524	Marionette	INFO	Stopped listening on port 55112
+1568958979530	Marionette	INFO	Stopped listening on port 54318

@@ -2,8 +2,8 @@
 import scrapy
 
 
-class Soseki3Spider(scrapy.Spider):
-    name = 'soseki3'
+class Soseki4Spider(scrapy.Spider):
+    name = 'soseki4'
     allowed_domains = ['www.aozora.gr.jp']
     start_urls = ['https://www.aozora.gr.jp/index_pages/person148.html']
 
@@ -24,7 +24,15 @@ class Soseki3Spider(scrapy.Spider):
         href = a.css('::attr(href)').extract_first()
         href2 = response.urljoin(href)
         if href2[-4:] != ".zip": continue
-        yield {
-          'title': title,
-          'url': href2
-        }
+        req = scrapy.Request(
+          href2, callback=self.parse_item
+        )
+        req.meta["title"] = title
+        yield req
+    
+    def parse_item(self, response):
+      title = response.meta["title"]
+      title = title.replace('図書カード：','').strip()
+      fname = title + '.zip'
+      with open(fname, "wb") as f:
+        f.write(response.body)
