@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-
 class Soseki4Spider(scrapy.Spider):
     name = 'soseki4'
     allowed_domains = ['www.aozora.gr.jp']
